@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Online Cinema Booking System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<style type="text/css">
+.code td {
+	background-color: #C0C0C0;
+}
+.leftside td {
+	background-color: #00FF00;
+}
+.center td {
+	background-color: #00FF00;
+}
+.rightside td {
+	background-color: #00FF00;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Online Cinema Booking System</h2>
+  <p>A website to booking ticket online.</p>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">Seat Selection</div>
+      <div class="panel-body">
+       <div class="row">
+  		<div class="col-md-4" style="background-color:silver">
+    		<h3>Movie are Selected</h3>
+    		<div class="col-xs-6" style="background-color:silver;text-align:right">
+    		Movie Name : <br />
+    		Date : <br />
+    		Time : <br />
+    		Running Time : <br />
+    		Price : 
+    		</div>
+    		<div class="col-xs-6" style="background-color:silver">
+    		Sprider Man<br />
+    		10-07-2017<br />
+    		02:30 pm<br />
+    		150 Minutes<br />
+    		Adult - RM 12.00<br />
+    		Child - RM  8.00
+    		</div>
+    		<form method="post" action="bookDetails.html">
+	  <div style="text-align:left">
+		  <input name="Text1" style="width: 28px;background-color:#00FF00" type="text" disabled="disabled"> &#8594; Available<br />
+		  <input name="Text1" style="width: 28px;background-color:red" type="text" disabled="disabled"> &#8594; Not Available<br />
+		  <input name="Text1" style="width: 28px;background-color:aqua" type="text" disabled="disabled"> &#8594; Selected<br />
+	  </div>
+	  &nbsp;<a href="#" onClick="window.open('showBookDetails.html','Show Book Details','resizable,height=300,width=380'); return false;">Show 
+		  Booking Details</a><input name="Button1" type="submit" value="Book Now &#10148;" />
+		  </form>
+
+  		</div>
+  		<div class="col-md-8" style="background-color:#FFFFCC">
+    		<td bgcolor="#eee" width="100" height="200">
+    	&nbsp;PLEASE SELECT YOUR SEAT :<br>&nbsp;
+    	<table style="width: 100%;text-align:center">
+	<tr style="width: 100%">
+		<td style="width: 20%">DOOR</td>
+		<td style="width: 60%;background-color:orange">SCREEN</td>
+		<td style="width: 20%">DOOR</td>
+	</tr>
+</table>
+    <table style="width: 100%;text-align:center">
+		<tr>
+			<td>
+			<table class="code" style="width: 100%">
+				<tr class="code">
+					<td>A</td>
+				</tr>
+				<tr>
+					<td>B</td>
+				</tr>
+				<tr>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+				</tr>
+				<tr>
+					<td>E</td>
+				</tr>
+				<tr>
+					<td>F</td>
+				</tr>
+				<tr>
+					<td>G</td>
+				</tr>
+				<tr>
+					<td>H</td>
+				</tr>
+				<tr>
+					<td>I</td>
+				</tr>
+				<tr>
+					<td>J</td>
+				</tr>
+			</table>
+			</td>
+			<td>
+			<table class="leftside" style="width: 100%">
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+			</table>
+			</td>
+			<td>&nbsp;</td>
+			<td>
+			<table class="center" style="width: 100%">
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td style="height: 26px">4</td>
+					<td style="height: 26px">5</td>
+					<td style="height: 26px">6</td>
+					<td style="height: 26px">7</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+			</table>
+			</td>
+			<td>&nbsp;</td>
+			<td>
+			<table class="rightside" style="width: 100%">
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table><br />
+
+  		</div>
+	</div>
+	<footer class="footer" style="background-color:white">
+		<div class="container">
+	        <p class="text-muted"><strong>&copy; Copyright 2017 Cinema Online Booking System</strong></p>
+	    </div>    
+	</footer>
+	</div>
+    </div>
+      </div>
+</div>
+</body>
+</html>
